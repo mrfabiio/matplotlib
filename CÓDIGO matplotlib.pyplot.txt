@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+x = [x for x in range(100)]
+y = [y**2 for y in x]
+
+plt.plot(x,y)
